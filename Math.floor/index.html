@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1> Javascript Basic </h1>
+   
+        <button onclick="myFunction()">Run</button>
+   
+        <p id="demo"></p>
+   
+        <script>
+            function myFunction() {
+                var content ='3.14 làm tròn xuống thành ' +  Math.floor(3.14) + '<br>';
+                content = content + '4 làm tròn xuống thành ' +  Math.floor(4) + '<br>';
+                document.getElementById("demo").innerHTML = content;
+            }
+        </script>
+    </body>
+</html>
